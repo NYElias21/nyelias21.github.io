@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lyric Up! - The Music Word Game</title>
+    <title>Lyric Up! - Think Fast, Sing Faster!</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -41,38 +41,83 @@
             border-radius: 12px;
             backdrop-filter: blur(10px);
         }
+        .how-to-play {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 40px 0;
+        }
+        .how-to-play ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .how-to-play li {
+            margin: 10px 0;
+            padding-left: 24px;
+            position: relative;
+        }
+        .how-to-play li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
         .app-store-badge {
             margin-top: 40px;
         }
         .app-store-badge img {
             height: 40px;
         }
+        .contact {
+            margin-top: 40px;
+            font-size: 16px;
+            opacity: 0.8;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Lyric Up!</h1>
-        <p>Challenge your friends to find song lyrics containing displayed words and tap your screen to win points!</p>
+        <p>Think fast and sing faster! Challenge friends to find song lyrics containing displayed words. Multiple game modes, competitive fun, and musical creativity in one app!</p>
         
         <div class="features">
             <div class="feature">
                 <h3>Party Mode</h3>
-                <p>Compete with friends in real-time!</p>
+                <p>Compete with 2-4 players locally! Think fast and tap when you know a matching lyric.</p>
             </div>
             <div class="feature">
-                <h3>Pass & Play</h3>
-                <p>Take turns finding lyrics in hot potato style</p>
+                <h3>Word Rush</h3>
+                <p>Take turns finding lyrics in this casual, turn-based mode.</p>
             </div>
             <div class="feature">
-                <h3>Solo Mode</h3>
-                <p>Practice your lyric-finding skills</p>
+                <h3>Customize Your Game</h3>
+                <p>Adjust timer settings and toggle sound/vibration in the Settings menu.</p>
             </div>
         </div>
+
+        <div class="how-to-play">
+            <h3>How to Play:</h3>
+            <ul>
+                <li>Choose your game mode and gather your friends</li>
+                <li>Watch for words that appear on screen</li>
+                <li>Think of a song lyric containing that word</li>
+                <li>Tap your zone when you know a lyric</li>
+                <li>Sing your lyric to score points</li>
+                <li>Have fun and get creative!</li>
+            </ul>
+        </div>
+
+        <p>Perfect for parties, family game nights, or casual fun with friends!</p>
 
         <div class="app-store-badge">
             <a href="https://apps.apple.com/app/id6478747908">
                 <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
             </a>
+        </div>
+
+        <div class="contact">
+            <p>Contact: <a href="mailto:elias@reyescreative.com" style="color: white;">elias@reyescreative.com</a></p>
+            <p>© 2025 Reyes Creative. All rights reserved.</p>
         </div>
     </div>
 </body>
