@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyric Up! - The Music Word Game</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #6b46c1 0%, #3182ce 100%);
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+        .app-store-badge {
+            margin-top: 40px;
+        }
+        .app-store-badge img {
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lyric Up!</h1>
+        <p>Challenge your friends to find song lyrics containing displayed words and tap your screen to win points!</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>Party Mode</h3>
+                <p>Compete with friends in real-time!</p>
+            </div>
+            <div class="feature">
+                <h3>Pass & Play</h3>
+                <p>Take turns finding lyrics in hot potato style</p>
+            </div>
+            <div class="feature">
+                <h3>Solo Mode</h3>
+                <p>Practice your lyric-finding skills</p>
+            </div>
+        </div>
+
+        <div class="app-store-badge">
+            <a href="https://apps.apple.com/app/id6478747908">
+                <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="Download on the App Store">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
